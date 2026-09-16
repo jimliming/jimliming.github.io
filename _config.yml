@@ -1,0 +1,16 @@
+# Site Build Settings
+
+# jekyll-paginate configuration
+paginate:            5
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           /:title
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+
+# Site metadata (also feeds jekyll-feed and jekyll-seo-tag)
+title:               "cachemix"
+description:         "Notes, experiments, and half-finished ideas."
+author:              "Jim Liming"
+url:                 "https://cachemix.com"

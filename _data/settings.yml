@@ -1,0 +1,28 @@
+# Change 'comments' to true for Disqus comments
+disqus:
+  comments: false
+  disqus_shortname: ''
+
+# If you are not using Google Analytics, leave this as an empty string
+google-ID: ''
+
+menu:
+- {name: 'Services', url: 'services'}
+- {name: 'About',    url: 'about'}
+
+# Available social icons are powered by Font Awesome
+social:
+- {icon: 'github', link:     'https://github.com/jimliming'}
+- {icon: 'envelope', link:   'mailto:you@cachemix.com'}
+- {icon: 'rss-square', link: 'feed.xml'}
+
+# Customize site text
+pagination:
+  next_page: 'Newer'
+  previous_page: 'Older'
+
+sharing_button_prompt: 'Feel free to share!'
+
+related_posts: 'You may also enjoy...'
+
+post_date_prefix: 'Written on'
